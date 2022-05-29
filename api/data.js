@@ -3,19 +3,52 @@ const router = express.Router();
 
 let data = [
     {
-      "id": 1,
-      "name": "one",
-      "role": "first"
+       "time":1652229320349,
+       "label":"1.0.0-RC2",
+       "changes":[
+          {
+             "changeType":"NEW",
+             "summary":"Bulletin is easy!"
+          },
+          {
+             "changeType":"DEFAULT",
+             "summary":"Kotlin DSL FTW!"
+          }
+       ]
     },
     {
-      "id": 2,
-      "name": "two",
-      "role": "second"
-    },
-    {
-      "id": 3,
-      "name": "three",
-      "role": "third"
+       "time":0,
+       "label":"0.0.0",
+       "changes":[
+          {
+             "changeType":"DEFAULT",
+             "summary":"Example DEFAULT."
+          },
+          {
+             "changeType":"IMPROVED,",
+             "summary":"Example IMPROVED."
+          },
+          {
+             "changeType":"FIXED",
+             "summary":"Example FIXED."
+          },
+          {
+             "changeType":"NEW",
+             "summary":"Example NEW."
+          },
+          {
+             "changeType":"REMOVED",
+             "summary":"Example REMOVED."
+          },
+          {
+             "changeType":"DEPRECATED",
+             "summary":"Example DEPRECATED."
+          },
+          {
+             "changeType":"SECURITY",
+             "summary":"Example SECURITY."
+          }
+       ]
     }
   ];
 
