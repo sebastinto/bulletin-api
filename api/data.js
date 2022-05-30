@@ -25,7 +25,7 @@ let data = [
              "summary":"Example DEFAULT."
           },
           {
-             "changeType":"IMPROVED,",
+             "changeType":"IMPROVED",
              "summary":"Example IMPROVED."
           },
           {
